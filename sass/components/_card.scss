@@ -182,10 +182,7 @@
     font-weight: 100;
   }
 
-
-
-
-  @include respond(tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
@@ -207,9 +204,9 @@
     }
 
     &__details {
-        padding: 1rem 3rem;
+      padding: 1rem 3rem;
     }
-    
+
     // BACK SIDE STYLING
     &__cta {
       position: relative;
